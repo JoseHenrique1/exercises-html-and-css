@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/common/style.css">
+  <link rel="stylesheet" href="../assets/css/common/header.css">
+  <link rel="stylesheet" href="../assets/css/common/footer.css">
+  <link rel="stylesheet" href="../assets/css/contact/contact.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-content">
+      <div>
+        <label class="menu-icon" for="menu-control">
+          <img src="../assets/img/menu-icon.svg" alt="Mais opcoes" />
+        </label>
+
+        <div class="logo-container">
+          <img class="logo-img" src="../assets/img/logo.svg" alt="Logo" />
+          <img class="logo-content" src="../assets/img/logo-name.svg" alt="Logo name">
+        </div>
+      </div>
+
+      <input type="checkbox" name="menu" id="menu-control" checked />
+
+      <nav>
+        <ul class="wrapper-links">
+          <li><a class="link" href="../index.html">Home</a></li>
+          <li><a class="link" href="../sobre/index.html">Sobre nós</a></li>
+          <li><a class="link" href="../index.html#service">Serviços</a></li>
+          <li><a class="link" href="../contato/index.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+
+    <section class="banner banner-contact-page">
+      <img src="../assets/img/banner-contato.png" alt="Banner da pagina" />
+      <div class="container banner-content">
+        <h1 class="title font-large">Contato</h1>
+        <p class="text font-base">
+          Olá, somos a Lorem Ipsum.
+          Nosso trabalho é desenvolver textos de marcação.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container section-contact">
+        <form class="form container">
+          <div class="form-head">
+            <h1 class="title font-base">
+              Envie-nos uma mensagem
+            </h1>
+            <img src="../assets/img/msg-fast.svg" alt="Icon de mensagem" />
+          </div>
+
+          <div class="wrapper-form">
+
+            <div>
+              <div class="box-input">
+                <label class="title font-small" for="nome">Nome</label>
+                <input class="input" id="nome" type="text" placeholder="Ex.: José Maria da Silva">
+              </div>
+              <div class="box-input">
+                <label class="title font-small" for="email">Email</label>
+                <input class="input" id="email" type="email" placeholder="Ex.: seuemail@email.com">
+              </div>
+            </div>
+
+            <div>
+              <div class="box-input">
+                <label class="title font-small" for="ramo">Ramo em que atua</label>
+                <select class="input" name="ramo" id="ramo">
+                  <option value="frontend">Frontend</option>
+                  <option value="backend">Backend</option>
+                  <option value="fullstack">Fullstack</option>
+                </select>
+              </div>
+              <div class="box-input">
+                <label class="title font-small">Assunto</label>
+                <div>
+
+                  <label class="text font-small label-radio" for="investimento">
+                    <input type="radio" name="assunto" value="investimento" id="investimento" />
+                    Investimento
+                  </label>
+
+                  <label class="text font-small label-radio" for="contratacao">
+                    <input type="radio" name="assunto" value="contratacao" id="contratacao" />
+                    Contratação
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="box-input">
+                <label class="title font-small" for="mensagem">Mensagem</label>
+                <textarea class="input" id="mensagem" placeholder="Digite sua mensagem aqui" rows="3"></textarea>
+              </div>
+            </div>
+
+          </div>
+          <div class="container-send-form">
+            <label class="text font-small" for="termos">
+              <input type="checkbox" id="termos" />
+              Li e concordo com a <span class="tachado">política de privacidade</span>
+            </label>
+            <button class="button">
+              enviar
+              <img src="../assets/img/arrow.svg" alt="Icon" />
+            </button>
+          </div>
+        </form>
+        <section class="section-info-contact container">
+          <h1 class="title font-base">Informações de contato</h1>
+          <div>
+            <div class="card-info-contact">
+              <img src="../assets/img/location.svg" alt="Local" />
+              <div>
+                <p class="text">Av. Theodomiro Porto da</p>
+                <p class="text">Fonseca, 3101 - Cristo Rei, São</p>
+                <p class="text">Leopoldo - RS, 93022-715</p>
+              </div>
+            </div>
+            <div class="card-info-contact">
+              <img src="../assets/img/phone.svg" alt="Telefone" />
+              <p class="text">(51) 3081-3600</p>
+            </div>
+            <div class="card-info-contact">
+              <img src="../assets/img/msg-fast-white.svg" alt="Email" />
+              <p class="text">contato@loremipsumgram.com</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+
+
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-head">
+        <div class="logo-container">
+          <img class="logo-img" src="../assets/img/logo.svg" alt="Logo" />
+          <img class="logo-content" src="../assets/img/logo-name.svg" alt="Logo name">
+        </div>
+
+        <img class="logo-mark" src="../assets/img/logo-mark.svg" alt="Logo marca" />
+
+        <p class="text font-extra-small copyright-mobile">
+          © Copyright 2019 Todos os direitos
+        </p>
+      </div>
+
+      <div class="footer-content">
+        <div>
+          <ul class="wrapper-links">
+            <li><a class="link" href="../index.html">Home</a></li>
+            <li><a class="link" href="../sobre/index.html">Sobre nós</a></li>
+            <li><a class="link" href="../index.html#service">Serviços</a></li>
+            <li><a class="link" href="../contato/index.html">Contato</a></li>
+          </ul>
+        </div>
+
+        <p class="text font-extra-small">
+          Copyright ©. Todos os direitos reservados à Lorem Ipsum.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>

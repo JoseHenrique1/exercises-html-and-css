@@ -1,0 +1,49 @@
+
+
+.footer {
+  padding-block: 40px;
+}
+
+.footer .logo-content {
+  display: block;
+}
+
+.footer-head, .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content {
+  display: none;
+}
+
+.logo-mark {
+  display: none;
+}
+
+.copyright-mobile {
+  display: block;
+}
+
+.footer .font-extra-small {
+  color: #898989;
+}
+
+
+@media (min-width: 700px) {
+  .footer-content {
+    margin-top: 40px;
+    display: flex;
+  }
+  
+  .copyright-mobile {
+    display: none;
+  }
+
+  .logo-mark {
+    display: block;
+  }
+}
+
+

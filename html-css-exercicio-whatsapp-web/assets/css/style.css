@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.presentation {
+  flex-grow: 1;
+}
+
+.container-contacts {
+  display: flex;
+  flex-direction: column;
+  min-width: 411px;
+}
+
+.contacts-header {
+  padding: 10px 24px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  background: #EDEDED;
+}
+
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  border-right: 1px solid #EDEDED;
+}
+
+.contacts-card {
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #EDEDED;
+  gap: 15px;
+}
+
+.contacts-card > img {
+  width: 50px;
+  height: 50px;
+}
+
+.wrapper-content {
+  padding: 5px 0px 3px 0px;
+  flex-grow: 1;
+}
+
+.contacts-card-content {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+.contacts-text-name {
+  font-size: 18px;
+  color: #656565;
+}
+
+.contacts-text-message, .contacts-text-time {
+  color: #888888;
+} 
+
+.contacts-text-message {
+  font-size: 12px;
+}
+
+.contacts-text-time {
+  font-size: 10px;
+}
+

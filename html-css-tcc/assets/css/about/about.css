@@ -1,0 +1,118 @@
+.banner-about-page>img {
+  object-position: center;
+  height: initial;
+  min-height: 435px;
+}
+
+.banner-about-page .text {
+  margin-top: 20px;
+}
+
+.banner-about-page .banner-content {
+  margin: 160px 0px 140px; 
+} 
+
+
+.section-team {
+  padding: 40px 0px 60px;
+}
+
+.section-team .title, .section-team .text {
+  color: #515070;
+}
+
+.section-team .title {
+  font-size: 48px;
+}
+
+.wrapper-team {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 32px;
+}
+.card-team {
+  flex-grow: 1;
+  position: relative;
+  background: red;
+  font-size: 0px;
+}
+
+.card-team > img {
+  width: 100%;
+}
+
+.card-team-content {
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
+  opacity: 0;
+  transition: 0.3s 0s;
+}
+
+.card-team:hover .card-team-content { 
+  background: #515070c0;
+  opacity: 1;
+}
+
+.card-team-content .font-base, .card-team-content .font-small  {
+  color: #fff;
+}
+.card-team-content .font-base {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.card-team-content .font-small {
+  line-height: 22px;
+}
+
+@media (min-width:800px) {
+  .wrapper-team {
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+  }
+}
+
+
+.section-value {
+  background: #F6F6F6;
+  padding: 80px 0px 50px;
+}
+.section-value .title {
+  font-size: 42px;
+  color: #515070;
+}
+
+.section-value .text {
+  color: #898989;
+}
+
+.wrapper-value {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.card-value > div {
+  display: flex;
+  gap: 23px;
+  margin-bottom: 25px;
+
+}
+
+@media (min-width:800px) {
+  .wrapper-value {
+    flex-direction: row;
+  }
+  
+}
